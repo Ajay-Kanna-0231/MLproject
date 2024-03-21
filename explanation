@@ -1,0 +1,1 @@
+instead of "install_requires = ['pandas', 'numpy', 'seaborn']" we have "install_requires = get_requirements('requirement.txt')" so that even if the list is too long we can mention it i
